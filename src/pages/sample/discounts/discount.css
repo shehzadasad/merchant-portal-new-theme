@@ -1,0 +1,11 @@
+.css-1135hbu-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+    color: #fff;
+}
+.css-1135hbu-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+    background-color: #65C466;
+    opacity: 1;
+}
+ ::-webkit-scrollbar{
+  width: 0; 
+  display: none; 
+}

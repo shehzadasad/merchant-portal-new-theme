@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d1d6dc;
+  padding-bottom: 10px;
+}
+
+.top-row-item:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.top-row-left {
+  display: flex;
+  align-items: center;
+}
+
+.top-row-right .heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: right;
+  color: #111111;
+}
+
+.details-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.details-row-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 32%;
+}
+
+.details-row-sub-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #4e5b68;
+  margin-bottom: 5px;
+}
+
+.details-row-c-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #111111;
+  margin-top: 5px;
+}
+
+.details-row-c-address {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #4e5b68;
+  margin-top: 5px;
+}
+
+.details-row-item-key {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #111111;
+}
+
+.details-row-item-value {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: #111111;
+  margin-left: 10px;
+}
+
+.payment-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.payment-row-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-row-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.payment-row-left .details-row-sub-heading {
+  margin-bottom: 10px;
+}
+
+.payment-status-table table thead th {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  background: #f99438;
+  width: 150px;
+  border: none;
+  padding: 15px;
+}
+
+.border {
+  border-bottom: 1px solid #d1d6dc;
+}
+
+.payment-status-table table tbody span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: #141b22;
+}
+
+.order-table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.order-table table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 400px;
+}
+
+.order-table table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.funds-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.funds-details .details-row-item-row .details-row-item-key {
+  margin-right: 10px;
+}
+
+.funds-details .details-row-item-row .details-row-item-value {
+  margin-left: 0px;
+}

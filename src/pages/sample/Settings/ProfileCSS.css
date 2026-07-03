@@ -1,0 +1,25 @@
+.intl-tel-input {
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  padding: 16.5px 14px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.intl-tel-input-field {
+  padding: 3px 10px;
+  width: 100%;
+}
+
+.intl-tel-input.allow-dropdown input,
+.intl-tel-input.allow-dropdown input[type='tel'],
+.intl-tel-input.allow-dropdown input[type='text'],
+.intl-tel-input.allow-dropdown input:focus,
+.intl-tel-input.allow-dropdown input[type='tel']:focus,
+.intl-tel-input.allow-dropdown input[type='text']:focus,
+.intl-tel-input.allow-dropdown input:active,
+.intl-tel-input.allow-dropdown input[type='tel']:active,
+.intl-tel-input.allow-dropdown input[type='text']:active {
+  border: none !important;
+  outline: none !important;
+}

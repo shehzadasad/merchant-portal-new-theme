@@ -1,0 +1,17 @@
+.main-pagination {
+  display: flex;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.main-pagination .noBtn {
+  background-color: #ececec;
+  outline: none;
+  margin: 1px;
+  margin-right: 4pt;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}

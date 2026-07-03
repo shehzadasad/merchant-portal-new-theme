@@ -1,0 +1,94 @@
+.my-node-enter {
+  opacity: 0;
+}
+
+.my-node-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+
+.my-node-exit {
+  opacity: 1;
+}
+
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}
+
+.grey-div {
+  width: 87%;
+  height: 30px;
+  left: 776px;
+  top: 1442px;
+  background: #88909a;
+  opacity: 0.2;
+  border-radius: 6px;
+  margin-bottom: 13px;
+}
+
+#VariantDropDown .css-1okebmr-indicatorSeparator {
+  width: 0px !important;
+}
+
+#VariantDropDown .css-tlfecz-indicatorContainer {
+  color: black;
+}
+
+#VariantDropDown .css-1s2u09g-control {
+  background-color: transparent !important;
+  width: 150pt;
+  border: none;
+}
+
+#VariantDropDown {
+  width: 150pt !important;
+}
+
+#ActiveDropDown .css-1okebmr-indicatorSeparator {
+  width: 0px !important;
+}
+
+#ActiveDropDown .css-1s2u09g-control {
+  background-color: transparent !important;
+  width: 80pt;
+  border: none;
+}
+
+#ActiveDropDown .css-tlfecz-indicatorContainer {
+  color: black;
+}
+
+#ActiveDropDown {
+  width: 80pt !important;
+}
+
+.bouncing-loader {
+  display: flex;
+  justify-content: center;
+}
+
+.bouncing-loader > div {
+  width: 3px;
+  height: 3px;
+  margin: 6px 1.5px 0px 1.5px;
+  border-radius: 50%;
+  background-color: #78909c;
+  opacity: 1;
+  animation: bouncing-loader 0.6s infinite alternate;
+}
+
+@keyframes bouncing-loader {
+  to {
+    opacity: 0.4;
+    transform: translateY(-2px);
+  }
+}
+
+.bouncing-loader > div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.bouncing-loader > div:nth-child(3) {
+  animation-delay: 0.4s;
+}

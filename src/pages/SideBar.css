@@ -1,0 +1,20 @@
+.css-ybq1bj-MuiButtonBase-root-MuiListItem-root.current {
+  background-color: #fdeff5 !important;
+}
+
+.css-ybq1bj-MuiButtonBase-root-MuiListItem-root.current .nav-item-text {
+  color: #e72e80 !important;
+}
+
+.css-k1z767.current {
+  background-color: #fdeff5 !important;
+  pointer-events: none;
+}
+
+.css-k1z767.current .nav-item-text {
+  color: #e72e80 !important;
+}
+
+.backArrow {
+  color: black !important;
+}

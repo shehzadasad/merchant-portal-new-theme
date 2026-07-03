@@ -1,0 +1,36 @@
+.single-input-card2 {
+    /* background-color: white !important;
+    border: 1px solid transparent;
+    border-radius: 10px !important;
+    padding-left: 50px !important;
+    border: 1px solid #d1d5db;
+    font-family: "DM Sans", sans-serif;*/
+    padding-left: 90px !important; 
+    border: 1px solid #e2e2e1;
+    border-radius: 4px;
+    height: 57px !important;
+}
+
+.outline-color-base2 {
+    /* outline-color: #e72e80 !important; */
+    outline: none;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+.h-50 {
+    /* height: 50px !important; */
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.intl-tel-input .flag-container .arrow{
+    font-size: 8px !important;
+}
+.intl-tel-input {
+    margin-bottom: 0;
+}

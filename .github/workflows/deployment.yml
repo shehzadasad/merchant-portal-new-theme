@@ -1,0 +1,58 @@
+---
+name: Node.js CI
+on:
+  push:
+    branches:
+      - master
+env:
+  REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
+  REACT_APP_API_URL: ${{secrets.REACT_APP_API_URL}}
+  REACT_APP_HEADLESS_URL: ${{secrets.REACT_APP_HEADLESS_URL}}
+  REACT_APP_INVOICE_API: ${{secrets.REACT_APP_INVOICE_API}}
+  REACT_APP_STRIPE_KEY: ${{secrets.REACT_APP_STRIPE_KEY}}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: npm
+      - name: Install dependencies
+        run: |
+          npm install
+          npm install history
+      - name: Build application
+        run: CI='' npm run build
+      - name: listing content of build
+        run: |
+          ls build/
+      - name: upload build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-artifacts
+          path: build
+      - name: List build artifacts
+        run: ls -R
+  deploy_to_gcs:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ secrets.GOOGLE_CREDENTIALS }}
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+      - name: Download build artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: build-artifacts
+          path: build
+      - name: Upload to Google Cloud Storage
+        run: |
+          ls build/
+          gsutil -m rsync -d -c -r build/ gs://merchant-portal-prod

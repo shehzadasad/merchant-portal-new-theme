@@ -1,0 +1,10 @@
+.SearchIcon {
+  position: absolute;
+  z-index: 10000000000000;
+  top: 36%;
+  left: 4%;
+}
+.kMfJYT > .wrapper {
+  background-color: aqua !important;
+  /* z-index: 1; */
+}

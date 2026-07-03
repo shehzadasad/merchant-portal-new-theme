@@ -1,0 +1,112 @@
+.NumberOfProducts {
+  /* font-family: 'Manrope'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+
+  color: #7e8792;
+}
+
+.VariantSelect {
+  /* border: 1px solid black; */
+  height: 50% !important;
+  margin-top: -4px !important;
+  border: 1px solid rgba(157, 163, 170, 0.4) !important;
+  border-radius: 5px !important;
+}
+
+.QtySelect {
+  /* border: 1px solid black; */
+  height: 50% !important;
+  margin-top: -4px !important;
+  /* border: 1px solid rgba(157, 163, 170, 0.4) !important; */
+  border-radius: 5px !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.VariantInput {
+  height: 85%;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #111111;
+}
+/* .Qtydropdown {
+    z-index: 9999;
+} */
+
+.VariantHeading1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  white-space: nowrap;
+  color: #111111;
+}
+
+.VariantHeading2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  margin-left: 20px;
+  color: #111111;
+}
+
+.VariantHeading3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  margin-left: 10px;
+  color: #111111;
+}
+
+.DustBinIcon {
+  width: 30%;
+  height: 30%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.DustBinIcon:hover {
+  animation: rotation 0.5s infinite linear;
+  cursor: pointer;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(-45deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}
+
+.Price {
+  /* margin-top: -3px; */
+  white-space: nowrap;
+  /* margin-left: 5px; */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #111111;
+}
+
+.ProductRow1 {
+  background: #f5f6f7;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.ProductRow0 {
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(245, 246, 247, 0.3);
+}

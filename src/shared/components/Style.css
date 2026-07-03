@@ -1,0 +1,30 @@
+.sharedsearch-box .css-183ocy5 .searchRoot .MuiInputBase-input {
+  background: white;
+  width: 100%;
+}
+
+.css-ea0lax-MuiListItem-root.nav-item-header {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  cursor: auto;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #6b7280 !important;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+#cancel-icon :hover {
+  color: #757575a8;
+}
+
+#SharedMultiSelect .MuiChip-root span {
+  font-size: 11px;
+}
+
+#SharedMultiSelect .MuiChip-root {
+  height: 21px;
+}

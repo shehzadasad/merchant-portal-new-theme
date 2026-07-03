@@ -1,0 +1,50 @@
+.steps.current {
+  clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0 46%, 0% 0%);
+}
+
+.active-text {
+  clip-path: polygon(75% 0%, 88% 50%, 75% 100%, 0% 100%, 10% 50%, 0% 0%);
+  margin-left: 0 !important;
+  margin-right: -3%;
+  padding-left: 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.active-text .main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  justify-content: center;
+  padding-left: 0 !important;
+  margin-left: -7%;
+}
+
+.steps {
+  background-repeat: no-repeat;
+  flex: 1;
+  text-align: center;
+  padding-top: 20px;
+  background-size: contain;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-body a {
+  text-decoration: none;
+  text-align: center;
+}

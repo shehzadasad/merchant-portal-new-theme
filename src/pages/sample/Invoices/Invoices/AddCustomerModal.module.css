@@ -1,0 +1,138 @@
+.headingDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AddCustomerModal {
+  padding: 15px;
+}
+
+.CloseIcon {
+  cursor: pointer;
+}
+
+.CloseIcon:hover {
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.CustomerNameInput {
+  width: 100%;
+}
+
+.MobileNumberInput {
+  width: 100%;
+}
+
+.EmailAddressInput {
+  width: 100%;
+}
+
+.StreetAddressInput {
+  width: 100%;
+}
+
+.CityInput {
+  width: 100%;
+  /* margin-right: 20px; */
+}
+
+.StateInput {
+  width: 100%;
+}
+
+.ZipCodeInput {
+  width: 100%;
+  /* margin-right: 20px; */
+}
+
+.CountryInput {
+  width: 100%;
+}
+
+.AddCustomerBtn {
+  background-color: #e71583;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ProductNameInput {
+  width: 100%;
+}
+
+.AddProductModal {
+  /* margin-top: 300px; */
+  padding: 30px;
+}
+
+.UploadImage {
+  color: #e71583;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+.UploadImage:hover {
+  text-decoration: underline;
+  color: #410021;
+}
+
+.UploadImageText {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #aeaeae;
+}
+
+.PLUS {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.AddProductBtn {
+  background-color: #e71583;
+  color: #fff;
+  border: none;
+  outline: none;
+  /* width: 100%; */
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  float: right;
+}
+
+.SELECTCOL {
+  margin-top: auto;
+}
+
+.SELECT {
+  vertical-align: bottom;
+  height: 58px;
+}
+
+.AddProductHeading {
+  font-weight: 700;
+  color: #252733;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.4px;
+}
+
+.ErrorMsg {
+  color: red;
+}
+
+.ErrorProduct {
+  text-align: right;
+  padding-right: 15px;
+}

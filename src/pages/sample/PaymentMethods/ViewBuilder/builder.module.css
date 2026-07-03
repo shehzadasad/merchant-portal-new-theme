@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope');
+
+.Title {
+  font-style: normal;
+  font-weight: bolder !important;
+  font-size: 13px;
+  line-height: 18px;
+  opacity: 0.7;
+  letter-spacing: 0.01em;
+  color: #4e5b68;
+}
+
+.ViewBox {
+  background: #ffffff;
+  padding-top: 7px !important;
+  padding: 10px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 0.5px solid #ebebeb;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px #ebedee;
+  border-radius: 5px;
+  font-family: 'Manrope';
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+
+  color: #4e5b68;
+}
+
+.ButtonLink {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+  color: #e71583;
+}
+
+.CheckoutInnerContainer {
+  background: #f6f7f8;
+  margin: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.CheckoutButton {
+  background: #b7bcc2;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  margin-top: 15px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.SelectDropDown {
+  border-radius: '5px';
+  padding: 0px;
+  outline: none;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 10px;
+}
+
+.OuterContainer {
+  background-color: #d2d7dd;
+  border-radius: 5px;
+  width: 85%;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.InnerContainer {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  height: 130px;
+}
+
+.SubTitle {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  width: 50px;
+  font-size: 12px;
+  overflow-wrap: break-word;
+  color: #8d959d;
+}
+
+.ConnectButton {
+  border: 1px solid #e72e80 !important;
+  padding: 5px !important;
+  float: right !important;
+  margin-top: 15px !important;
+  padding-top: 2px !important;
+  border-radius: 17px !important;
+  font-size: 12px !important;
+  padding-bottom: 2px !important;
+
+  color: #e72e80 !important;
+}
+
+.SearchField {
+  outline: 'none' !important;
+}
+
+.SaveButton {
+  background-color: #e72e80 !important;
+  border-radius: 5px !important;
+  color: #ffffff !important;
+  border: 2px solid #e71583 !important;
+  padding: 10px !important;
+  width: 43% !important;
+}
+
+.CancelButton {
+  color: #e71583 !important;
+  padding: 10px !important;
+  width: 40% !important;
+  border: 2px solid #e71583 !important;
+  margin: 10px !important;
+  color: #e71583 !important;
+}
+
+.inner_scroll {
+  min-height: 200px;
+  overflow-y: auto;
+}
+
+.MethodsRow {
+  /* background-color: #E5E5E5; */
+  padding: 5px;
+  border-radius: 5px;
+  vertical-align: middle;
+  height: 40px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+.percent::-webkit-inner-spin-button,
+.percent::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

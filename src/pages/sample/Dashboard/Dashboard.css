@@ -1,0 +1,13 @@
+.map-selected {
+    fill: #1E1E1E;;
+  }
+  
+  .map-unselected {
+    fill: #D1D6DC;
+  }
+  
+  .map-selected:hover,
+  .map-unselected:hover {
+    cursor: pointer;
+  }
+  
